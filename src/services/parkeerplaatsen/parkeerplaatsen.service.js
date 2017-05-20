@@ -8,8 +8,6 @@ module.exports = function () {
   const Model = createModel(app);
   const paginate = app.get('paginate');
 
-  const axios = require('axios');
-
   const options = {
     name: 'parkeerplaatsen',
     Model,
